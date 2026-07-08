@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPlanner - Personalized Fitness Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p.tagline {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .hero {
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin: 0 0 20px;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+        .feature h3 {
+            margin: 10px 0;
+        }
+        .how-it-works {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .steps {
+            display: flex;
+            justify-content: space-around;
+        }
+        .step {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .testimonials {
+            padding: 40px 20px;
+            background-color: #e9ecef;
+            text-align: center;
+        }
+        .testimonial {
+            margin: 20px;
+            font-style: italic;
+        }
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+        .pricing-tier {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 40%;
+            text-align: center;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .features, .steps, .pricing {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature, .step, .pricing-tier {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FitnessPlanner</h1>
+        <p class="tagline">Your Personalized Fitness Journey Starts Here</p>
+    </header>
+    <section class="hero">
+        <h2>Transform Your Life with Tailored Fitness Plans</h2>
+        <button class="cta-button">Get Started Today</button>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <h3>AI-Powered Insights</h3>
+            <p>Receive personalized recommendations based on your fitness goals.</p>
+        </div>
+        <div class="feature">
+            <h3>Easy to Use</h3>
+            <p>Our intuitive interface makes planning workouts a breeze.</p>
+        </div>
+        <div class="feature">
+            <h3>Track Your Progress</h3>
+            <p>Monitor your achievements and stay motivated.</p>
+        </div>
+    </section>
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Sign Up</h3>
+                <p>Create your account and tell us about your fitness goals.</p>
+            </div>
+            <div class="step">
+                <h3>2. Get Your Plan</h3>
+                <p>Receive a personalized fitness plan crafted just for you.</p>
+            </div>
+            <div class="step">
+                <h3>3. Start Your Journey</h3>
+                <p>Follow your plan and track your progress easily.</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial">"FitnessPlanner changed my life! I love the personalized approach!" - Jane D.</div>
+        <div class="testimonial">"I've never been more motivated to reach my fitness goals!" - Mike S.</div>
+    </section>
+    <section class="pricing">
+        <div class="pricing-tier">
+            <h3>Basic Plan</h3>
+            <p>$19/month</p>
+            <p>Access to basic features and personalized plans.</p>
+            <button class="cta-button">Choose Plan</button>
+        </div>
+        <div class="pricing-tier">
+            <h3>Premium Plan</h3>
+            <p>$39/month</p>
+            <p>All features plus advanced insights and tracking.</p>
+            <button class="cta-button">Choose Plan</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2023 FitnessPlanner. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+        <div>
+            <a href="#">FB</a>
+            <a href="#">TW</a>
+            <a href="#">IG</a>
+        </div>
+    </footer>
+</body>
+</html>
